@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "projeto-autenticação-jwt"
+version = "0.1.0"
+description = ""
+authors = ["Tiago Oliveira - TiagoDev0708 <tiagoj0708@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.12"
+uvicorn = "^0.34.0"
+sqlalchemy = "^2.0.40"
+psycopg2-binary = "^2.9.10"
+alembic = "^1.15.2"
+python-decouple = "^3.8"
+passlib = "^1.7.4"
+python-jose = "^3.4.0"
+python-multipart = "^0.0.20"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
